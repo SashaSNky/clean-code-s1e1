@@ -46,7 +46,6 @@
   display: flex;
 }
 
-/* ul, */
 .incomplete-tasks__ul,
 .completed-tasks__ul {
   margin: 0;
@@ -75,7 +74,6 @@
 
 /* Heading */
 
-/* h3, */
 .main__h3 {
   color: #333;
   font-weight: 700;
@@ -86,7 +84,6 @@
   text-transform: uppercase;
 }
 
-/* input[type="text"], */
 .input__text{
   box-sizing: border-box;
   margin: 0;
@@ -113,7 +110,6 @@
   margin: 0 0 20px;
 }
 
-/* #new-task, */
 .new-tasks__input {
   width: 318px;
   box-sizing: border-box;
@@ -121,7 +117,6 @@
 
 /* Task list */
 
-/* li, */
 .incomplete-tasks__li,
 .completed-tasks__li {
   overflow: hidden;
@@ -138,12 +133,10 @@
   vertical-align: middle;
 }
 
-/* li > input[type="checkbox"], */
  .input__checkbox {
   margin: 0 10px;
 }
 
-/* li > label, */
 .main__labels
  {
   padding-left: 10px;
@@ -152,27 +145,23 @@
   width: 226px;
 }
 
-/* li > input[type="text"], */
 .incomplete-tasks__li > .input__text,
 .completed-tasks__li > .input__text{
   width: 226px;
 }
 
-/* .delete img, */
 .button__img_delete {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-/* button.delete img:hover, */
 .button__img_delete:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
 
-/* .complited-tasks__ul label, */
 .completed-tasks__ul .main__labels {
   text-decoration: line-through;
   color: #888;
@@ -188,7 +177,6 @@ li .input__text {
   width: 224px;
 }
 
-/* ul li.editMode label, */
 .editMode .main__labels {
   display: none;
 }
