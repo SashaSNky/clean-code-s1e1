@@ -11,8 +11,8 @@
 // ("new-task");//Add a new task.
 var taskInput=document.querySelector(".new-tasks__input");//Add a new task.
 var addButton=document.getElementsByTagName("button")[0];//first button
-var incompleteTaskHolder=document.getElementById("incompleteTasks");//ul of #incompleteTasks
-var completedTasksHolder=document.getElementById("completed-tasks");//completed-tasks
+var incompleteTaskHolder=document.querySelector(".incomplete-tasks__ul");//ul of #incompleteTasks
+var completedTasksHolder=document.querySelector(".completed-tasks__ul");//completed-tasks
 
 
 //New task list item
@@ -33,7 +33,7 @@ var createNewTaskElement=function(taskString){
   var deleteButton=document.createElement("button");//delete button
   var deleteButtonImg=document.createElement("img");//delete button image
 
-  listItem.className="incomplite-tasks__li";
+  listItem.className="incomplete-tasks__li";
   label.innerText=taskString;
   label.className="main__labels";
   //Each elements, needs appending

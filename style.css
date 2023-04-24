@@ -47,13 +47,13 @@
 }
 
 /* ul, */
-.incomplite-tasks__ul,
-.complited-tasks__ul {
+.incomplete-tasks__ul,
+.completed-tasks__ul {
   margin: 0;
   padding: 0;
 }
 
-.incomplite-tasks__li,
+.incomplete-tasks__li,
 .completed-tasks__li,
 .main__h3 {
   list-style: none;
@@ -122,7 +122,7 @@
 /* Task list */
 
 /* li, */
-.incomplite-tasks__li,
+.incomplete-tasks__li,
 .completed-tasks__li {
   overflow: hidden;
   padding: 20px 0;
@@ -133,7 +133,7 @@
   align-items: center;
 }
 
-.incomplite-tasks__li > *,
+.incomplete-tasks__li > *,
 .completed-tasks__li > *{
   vertical-align: middle;
 }
@@ -153,7 +153,7 @@
 }
 
 /* li > input[type="text"], */
-.incomplite-tasks__li > .input__text,
+.incomplete-tasks__li > .input__text,
 .completed-tasks__li > .input__text{
   width: 226px;
 }
@@ -173,7 +173,7 @@
 /* Completed */
 
 /* .complited-tasks__ul label, */
-.complited-tasks__ul .main__labels {
+.completed-tasks__ul .main__labels {
   text-decoration: line-through;
   color: #888;
 }
