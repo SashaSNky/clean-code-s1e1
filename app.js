@@ -35,7 +35,7 @@ var createNewTaskElement=function(taskString){
 
   listItem.className="incomplite-tasks__li";
   label.innerText=taskString;
-  label.className="main__task";
+  label.className="main__labels";
   //Each elements, needs appending
   checkBox.type="checkbox";
   checkBox.className="input__checkbox";
