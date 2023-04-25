@@ -128,13 +128,14 @@
   align-items: center;
 }
 
-.incomplete-tasks__li > *,
-.completed-tasks__li > *{
+.incomplete-tasks__li > .main__task,
+.completed-tasks__li > .main__task{
   vertical-align: middle;
 }
 
  .input__checkbox {
   margin: 0 10px;
+  vertical-align: middle;
 }
 
 .main__labels
@@ -143,6 +144,7 @@
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
+  vertical-align: middle;
 }
 
 .incomplete-tasks__li > .input__text,
